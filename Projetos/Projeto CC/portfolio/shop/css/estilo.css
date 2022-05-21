@@ -1,0 +1,298 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+a:link, a:active, a:visited{
+	color: #315e8a;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	
+}
+@media only screen and (max-width: 400px) {
+	img{
+	max-width: 60%;
+	height: auto;}
+	h1, h2, h3, h4, h5, h6{
+	font-weight: 100;
+	margin: 3px 0 2px 0;}
+	ul li, ol li{
+	margin-bottom: 1px;}
+	.satisfeitos a{
+	border-radius: 1px;
+	margin: 2px 0;
+	
+}
+ul.noticias li{
+	margin-bottom: 10px;}
+	.produtos a{
+	border-radius: 1px;	
+	margin: 1px 0;
+}ul.noticias li h4{
+	margin: -2px 0 1px 0;
+	font-weight: 100
+}
+ul.noticias li p{
+	margin: 1px 0;
+	font-weight: 30;}
+	.footer{font-weight: 10;}
+.conteudo-extra{margin: 8px 0 7px 0;}
+h1.logo{
+	font-weight: 100;
+	letter-spacing: -2px;
+}
+.linha{
+	width: 320px;
+	margin: 0 auto;
+	
+}
+.linha1{
+	width: 120px;
+	margin: 0 auto;
+	
+}
+.center{
+	display: block;
+	margin-left: 10%;
+	margin-right: 30%;
+}}
+@media only screen and (min-width: 401px) and (max-width: 800px) {
+	img{
+	max-width: 80%;
+	height: auto;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 300;
+margin: 10px 0 7px 0;}
+ul li, ol li{
+margin-bottom: 3px;}
+.satisfeitos a{
+	
+	border-radius: 2px;
+	
+margin: 3px 0;}
+.produtos a{
+	border-radius: 2px;	
+	margin: 3px 0;
+}ul.noticias li h4{
+	margin: -2px 0 3px 0;
+	font-weight: 300
+}
+ul.noticias li p{
+	margin: 3px 0;
+	font-weight: 200;}
+	ul.noticias li{
+margin-bottom: 30px;}
+.footer{font-weight: 70;}
+.conteudo-extra{margin: 17px 0 7px 0;}
+h1.logo{
+	font-weight: 200;
+	letter-spacing: -2px;
+}
+.linha{
+	width: 640px;
+	margin: 0 auto;
+	
+}
+.linha1{
+	width: 330px;
+	margin: 0 auto;
+	
+}
+.center{
+	margin-left: 14%;
+	margin-right: 60%;
+}}
+@media only screen and (min-width: 801px) {
+	img{
+	max-width: 100%;
+	height: auto;
+}h1, h2, h3, h4, h5, h6{
+	font-weight: 500;
+margin: 15px 0 10px 0;}ul li, ol li{
+margin-bottom: 5px;}
+.produtos a{
+	border-radius: 3px;	
+	margin: 5px 0;
+}
+ul.noticias li h4{
+	margin: -2px 0 5px 0;
+	font-weight: 500
+}
+ul.noticias li p{
+	margin: 5px 0;
+font-weight: 300;}
+.satisfeitos a{
+	
+	border-radius: 3px;
+	
+margin: 5px 0;}
+ul.noticias li{
+	margin-bottom: 50px;}
+.footer{font-weight: 100;}
+.conteudo-extra{margin: 25px 0 10px 0;}
+h1.logo{
+	font-weight: 300;
+	letter-spacing: -2px;
+}
+.linha{
+	width: 960px;
+	margin: 0 auto;
+	
+}
+.linha1{
+	width: 550px;
+	margin: 0 auto;
+	
+}
+.center{
+	margin-left: 20%;
+	margin-right: 80%;
+}
+}
+/* grid 960px*/
+.linha{
+	
+	overflow: auto;
+	padding: 5px 0;
+}
+.linha1{
+	overflow: auto;
+	padding: 5px 0;
+}
+.coluna{
+	padding: 0 10px;
+	float: left;
+}
+.col1{
+	width: 60px;
+}
+.col2{
+	width: 140px
+}
+.col3{
+	width: 220px;
+}
+.col4{
+	width: 300px;
+}
+.col5{
+	width: 380px;
+}
+.col6{
+	width: 460px;
+}
+.col7{
+	width: 540px;
+}
+.col8{
+	width: 620px;
+}
+.col9{
+	width: 700px;
+}
+.col10{
+	width: 780px;
+}
+.col11{
+	width: 860px;
+}
+.col12{
+	width: 940px;
+}
+/* estilos reutilizáveis*/
+.sem-padding{
+	padding: 0 !important;
+}
+.sem-margin{
+	margin: 0 !important;
+}
+
+}
+
+}
+ul.inline li, ol.inline li{
+	display: inline;
+	margin-right: 15px
+}
+ul.inline li:last-child, ol.inline li:last-child{
+	margin-right: 0px
+}
+ul.sem-marcador, ol.sem-marcador{
+	list-style: none;
+}
+
+
+/* layout do site*/
+.header{
+	background: #dee3e6;
+}
+h1.logo{
+	color: #315e8a;
+}
+.conteudo-extra{
+	background: #f1f2ea;
+}
+
+
+.footer{
+	background: #1f3c58;
+	color: #ebebeb;
+	padding: 20px 0;
+	text-align: center;
+	
+}
+.menu{
+	text-transform: uppercase;
+	text-align: right;
+	margin-top: 25px;
+}
+.menu li a{
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+.menu li a:hover{
+	text-decoration: none;
+	background: #1f3c58;
+	color: #ebebeb;
+}
+ul.noticias li{
+	clear: both;
+	display: block;
+	overflow: hidden;
+}
+
+.produtos a{
+	background: #1f3c58;
+	color: #ebebeb;
+	cursor: pointer;
+	display: inline-block;
+	border: none;
+}
+.produtos a:hover{
+	background: #315e8a;
+	text-decoration: none;
+}
+.satisfeitos a{
+	background: #1f3c58;
+	padding: 5px 10px;
+	color: #ebebeb;
+	cursor: pointer;
+	display: inline-block;
+	border: none;
+}
+.satisfeitos a:hover{
+	background: #315e8a;
+	text-decoration: none;
+}
+
+
+.center{
+	display: block;
+	
+}
+
+.preco{
+	color: #4682B4;
+}
